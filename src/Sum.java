@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Sum {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int sum = 0;
+
+        sum = N * (N+1) / 2;
+
+        System.out.println(sum);
+    }
+
+}
